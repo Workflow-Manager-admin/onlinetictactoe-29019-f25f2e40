@@ -9,3 +9,131 @@
   ➜  Network: http://172.17.0.2:3000/
   ➜  Vue DevTools: Open http://localhost:3000/__devtools__/ as a separate window
   ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools
+5:24:20 AM [vite] (client) hmr update /src/views/HomeView.vue
+5:24:21 AM [vite] (client) Pre-transform error: Failed to resolve import "../components/GameBoard.vue" from "src/views/HomeView.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/views/HomeView.vue:3:22
+  15 |  import { defineComponent as _defineComponent } from "vue";
+  16 |  import { computed, reactive, onMounted } from "vue";
+  17 |  import GameBoard from "../components/GameBoard.vue";
+     |                         ^
+  18 |  import PlayerSidebar from "../components/PlayerSidebar.vue";
+  19 |  import {
+5:24:21 AM [vite] Internal server error: Failed to resolve import "../components/GameBoard.vue" from "src/views/HomeView.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/views/HomeView.vue:3:22
+  15 |  import { defineComponent as _defineComponent } from "vue";
+  16 |  import { computed, reactive, onMounted } from "vue";
+  17 |  import GameBoard from "../components/GameBoard.vue";
+     |                         ^
+  18 |  import PlayerSidebar from "../components/PlayerSidebar.vue";
+  19 |  import {
+      at TransformPluginContext._formatLog (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite-plugin-inspect/dist/index.mjs:1128:17
+      at async EnvironmentPluginContainer.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+5:24:21 AM [vite] Internal server error: Failed to resolve import "../components/GameBoard.vue" from "src/views/HomeView.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/views/HomeView.vue:3:22
+  15 |  import { defineComponent as _defineComponent } from "vue";
+  16 |  import { computed, reactive, onMounted } from "vue";
+  17 |  import GameBoard from "../components/GameBoard.vue";
+     |                         ^
+  18 |  import PlayerSidebar from "../components/PlayerSidebar.vue";
+  19 |  import {
+      at TransformPluginContext._formatLog (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite-plugin-inspect/dist/index.mjs:1128:17
+      at async EnvironmentPluginContainer.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+5:24:21 AM [vite] Internal server error: Failed to resolve import "../components/GameBoard.vue" from "src/views/HomeView.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/views/HomeView.vue:3:22
+  15 |  import { defineComponent as _defineComponent } from "vue";
+  16 |  import { computed, reactive, onMounted } from "vue";
+  17 |  import GameBoard from "../components/GameBoard.vue";
+     |                         ^
+  18 |  import PlayerSidebar from "../components/PlayerSidebar.vue";
+  19 |  import {
+      at TransformPluginContext._formatLog (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite-plugin-inspect/dist/index.mjs:1128:17
+      at async EnvironmentPluginContainer.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+5:24:23 AM [vite] (client) page reload src/components/GameBoard.vue
+5:24:23 AM [vite] (client) Pre-transform error: Failed to resolve import "../components/PlayerSidebar.vue" from "src/views/HomeView.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/views/HomeView.vue:4:26
+  16 |  import { computed, reactive, onMounted } from "vue";
+  17 |  import GameBoard from "../components/GameBoard.vue";
+  18 |  import PlayerSidebar from "../components/PlayerSidebar.vue";
+     |                             ^
+  19 |  import {
+  20 |    startNewGame,
+5:24:23 AM [vite] (client) Pre-transform error: Duplicate attribute.
+  Plugin: vite-plugin-vue-inspector
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/components/GameBoard.vue
+5:24:23 AM [vite] Internal server error: Failed to resolve import "../components/PlayerSidebar.vue" from "src/views/HomeView.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/views/HomeView.vue:4:26
+  16 |  import { computed, reactive, onMounted } from "vue";
+  17 |  import GameBoard from "../components/GameBoard.vue";
+  18 |  import PlayerSidebar from "../components/PlayerSidebar.vue";
+     |                             ^
+  19 |  import {
+  20 |    startNewGame,
+      at TransformPluginContext._formatLog (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite-plugin-inspect/dist/index.mjs:1128:17
+      at async EnvironmentPluginContainer.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+5:24:23 AM [vite] (client) Pre-transform error: Duplicate attribute.
+  Plugin: vite-plugin-vue-inspector
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/components/GameBoard.vue
+5:24:23 AM [vite] Internal server error: Failed to resolve import "../components/PlayerSidebar.vue" from "src/views/HomeView.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/views/HomeView.vue:4:26
+  16 |  import { computed, reactive, onMounted } from "vue";
+  17 |  import GameBoard from "../components/GameBoard.vue";
+  18 |  import PlayerSidebar from "../components/PlayerSidebar.vue";
+     |                             ^
+  19 |  import {
+  20 |    startNewGame,
+      at TransformPluginContext._formatLog (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47802:41)
+      at TransformPluginContext.error (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47799:16)
+      at normalizeUrl (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45942:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:46061:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:45988:7)
+      at async file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite-plugin-inspect/dist/index.mjs:1128:17
+      at async EnvironmentPluginContainer.transform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:47597:18)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/node_modules/vite/dist/node/chunks/dep-CfG9u7Cn.js:41305:27)
+5:24:23 AM [vite] (client) Pre-transform error: Duplicate attribute.
+  Plugin: vite-plugin-vue-inspector
+  File: /home/kavia/workspace/code-generation/onlinetictactoe-29019-f25f2e40/tic_tac_toe_frontend_workspace/tic_tac_toe_frontend/src/components/GameBoard.vue
+5:24:28 AM [vite] (client) page reload src/components/PlayerSidebar.vue
+5:24:46 AM [vite] (client) page reload src/views/HomeView.vue
+5:24:50 AM [vite] (client) page reload src/views/HomeView.vue
+5:24:51 AM [vite] (client) page reload src/views/HomeView.vue
